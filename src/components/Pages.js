@@ -17,8 +17,8 @@ export function Home() {
 export function About() {
     return(
         <div>
-            <h1>About Page</h1>
             <Navbar />
+            <h1>About Page</h1>
         </div>
     );
 }
