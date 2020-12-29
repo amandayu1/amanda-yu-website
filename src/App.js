@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import './App.css';
 import smartCart from "./smartCart.png";
 import coronavrus from "./coronavrus.jpg";
@@ -10,27 +11,39 @@ function Header() {
   )
 }
 
-function ProjectCard(props){
+function ProjectCard({image , alt, proj_name, projLink, proj_description}){
   return(
     <section style={{border: "2px solid grey"}}>
-      <img src={props.image} width={300} alt={props.alt}/>
-      <h1>{props.proj_name}</h1>
-      <lead><a href={props.projLink} class="active" style={{color: 'blue'}} activeStyle={{color: 'grey'}}>
+      <img src={image} width={300} alt={alt}/>
+      <h1>{proj_name}</h1>
+      <lead><a href={projLink} class="active" style={{color: 'blue'}} activeStyle={{color: 'grey'}}>
         Click here!</a></lead>
-      <p>{props.proj_description}</p>
+      <p>{proj_description}</p>
     </section>
   )
 }
 
-function Footer(props){
+function Resume(){
+  return(
+    <h1>This is the resume page</h1>
+  )
+}
+
+function Contact(){
+  return(
+    <h1>This is the Contact page</h1>
+  )
+}
+
+function Footer({listThing, year}){
   return(
     <footer>
       <ul style={{textAlign: "left"}}>
-        {props.listThing.map( (listItemThingTemp) =>
+        {listThing.map( (listItemThingTemp) =>
         <li key={listItemThingTemp.id}>{listItemThingTemp.title}</li>)}
       </ul>
       <p>Contact me</p>
-      <p>Copyright © {props.year}</p>
+      <p>Copyright © {year}</p>
  
     </footer>
   )
@@ -45,9 +58,18 @@ const listThing = [
 const listObjects = listThing.map((listItem, i) => ({id: i, title: listItem}))
 
 function App() {
+  const [page, setContact] = useState("Home");
+  const [loading, setLoading] = useState(false);
+  
+  if (loading) return <h1>Loading ...</h1>;
+  else {
   return (
     <div className="App">
-      <Header />
+      <h1>This is the {page} page.</h1> 
+      <button onClick={() => setContact("Home")}>Home</button>
+      <button onClick={() => setContact("Contact Me")}>Contact Me</button> 
+      <button onClick={() => setContact("Resume")}>Resume</button> 
+      <Header />    
       <ProjectCard
         image={smartCart}
         alt="SmartCart logo"
@@ -55,7 +77,6 @@ function App() {
         proj_name="Unzucc.me"
         proj_description="Grocery App on moblie used to scan items"
         />
-        
       <ProjectCard
         image={coronavrus}
         alt="Coronavrus logo"
@@ -65,6 +86,7 @@ function App() {
       <Footer year={new Date().getFullYear()} listThing={listObjects}/>
     </div>
   );
+  }
 }
 
 export default App;
