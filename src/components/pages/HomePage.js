@@ -10,7 +10,7 @@ import { Button } from '../Button';
 function Header() {
   const [page, setContact] = useState("my skills");  
   return(
-      <header className="App" style={{backgroundColor: "#b0b0b0", paddingTop: "20px", paddingBottom: "20px"}}>
+      <header className="home" style={{backgroundColor: "#b0b0b0", paddingTop: "20px", paddingBottom: "20px"}}>
         <h1>Take a look at {page}.</h1> 
         <Button className="btns" onClick={() => setContact("Development")}>Development</Button>
         <Button className="btns" onClick={() => setContact("Design")}>Design</Button> 
@@ -39,7 +39,7 @@ function Header() {
     ]
     const listObjects = listThing.map((listItem, i) => ({id: i, title: listItem}))
     return (
-      <div className="App">
+      <div className="home">
         <Navbar header="My Website Homepage"/>
         <Landing />  
         <Header />  

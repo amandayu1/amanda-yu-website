@@ -13,7 +13,6 @@ export function Navbar({header}) {
 			<nav className="navbar">
 			{/*Remember to change css so that there's a gap at the top*/}
 			<h1>{header}</h1>
-			{/*other header colours should be white*/}
 				<div className="navbar-container">				
 					{/*toggle icon*/}
 					<div className="menu-icon" onClick={handleClick}>

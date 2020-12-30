@@ -33,10 +33,12 @@ img {
 
 .landing-btn{
     margin-top: 32px;
+    text-align: center;
 }
 
 .landing-btn .btn{
     margin: 6px;
+
 }
 
 @media screen and (max-width: 960px) {
@@ -58,6 +60,7 @@ img {
      .btn-mobile{
          display: block;
          text-decoration: none;
+         margin: 0px;
      }
 
      .btn{

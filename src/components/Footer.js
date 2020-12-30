@@ -14,6 +14,8 @@ function Footer({listThing, year}){
             </form>
           </div>
         </section>
+
+        {/*footer link section*/}
         <div className="footer-link">
 
           <div className="footer-link-wrapper">
@@ -25,38 +27,22 @@ function Footer({listThing, year}){
               <Link to="/about">About Me</Link>
             </div>
             <div className="footer-link-item">
-            <h2>About Me</h2>
-              <Link to="/">Home</Link>
-              <Link to="/contact">Resume</Link>
-              <Link to="/contact">Contact Me</Link>
-              <Link to="/about">About Me</Link>
+            <h2>Projects</h2>
+              <Link to="/">Waterloo Basics</Link>
+              <Link to="/">Preposition</Link>
+              <Link to="/">Unzucc.me</Link>
+              <Link to="/">Smart Cart</Link>
             </div>
           </div>
-
-          <div className="footer-link-wrapper">
-            <div className="footer-link-item">
-            <h2>About Me</h2>
-              <Link to="/">Home</Link>
-              <Link to="/contact">Resume</Link>
-              <Link to="/contact">Contact Me</Link>
-              <Link to="/about">About Me</Link>
-            </div>
-            <div className="footer-link-item">
-            <h2>About Me</h2>
-              <Link to="/">Home</Link>
-              <Link to="/contact">Resume</Link>
-              <Link to="/contact">Contact Me</Link>
-              <Link to="/about">About Me</Link>
-            </div>
-          </div>
-
+          {/*end of footer link wrapper*/}
         </div>
-        
+
+        {/*footer social media section*/}
         <section className="social-media">
           <div className="social-media-wrap">
             <div className="social-media-logo">
                 <Link to='/' className="social-logo">
-                  Home <i className='fab fa-typo3'/>
+                  Amanda Yu {/*<i className='fab fa-typo3'/>*/}
                 </Link>
             </div>
             <small className="website-rights">
@@ -64,18 +50,18 @@ function Footer({listThing, year}){
             </small>
             <div className="social-icons">
               <Link to="/"
-                className="social-icons-link facebook"
+                className="social-icons-link email"
                 target="_blank"
-                aria-label="Facebook"
+                aria-label="Email"
               >
-                <i className="fab fa-facebook-f"></i>
+                <i className="far fa-envelope"></i>
               </Link>
               <Link to="/"
-                className="social-icons-link instagram"
+                className="social-icons-link github"
                 target="_blank"
-                aria-label="Instagram"
+                aria-label="Github"
               >
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-github"></i>
               </Link>
               <Link to="/"
                 className="social-icons-link linkedin"

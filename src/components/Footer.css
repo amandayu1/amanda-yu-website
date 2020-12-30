@@ -146,9 +146,12 @@
       width: 100%;
    }
    .footer-link-wrapper{
-      flex-direction: column;
+      flex-direction: column;   
    }
    .social-media-wrap{
       flex-direction: column;
+   }
+   .footer-link-item{
+      align-items: center;
    }
 }
