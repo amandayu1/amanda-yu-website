@@ -5,11 +5,10 @@ import Navbar from '../Navbar';
 import Cards from '../Cards';
 import Footer from '../Footer';
 import { Button } from '../Button';
-import smartCart from "../images/smartCart.png";
-import coronavrus from "../images/coronavrus.jpg";
+
 
 function Header() {
-  const [page, setContact] = useState("my skills.");  
+  const [page, setContact] = useState("my skills");  
   return(
       <header className="App">
         <h1>Take a look at {page}.</h1> 
@@ -58,14 +57,14 @@ function Header() {
         <Header />  
         <Cards />
         <ProjectCard
-          image={smartCart}
+          image=""
           alt="SmartCart logo"
           projLink="https://devpost.com/software/grocery-app-n0ps83"
           proj_name="Unzucc.me"
           proj_description="Grocery App on moblie used to scan items"
           />
         <ProjectCard
-          image={coronavrus}
+          image=""
           alt="Coronavrus logo"
           projLink="https://devpost.com/software/coronavrus"
           proj_name="Coronavrus"

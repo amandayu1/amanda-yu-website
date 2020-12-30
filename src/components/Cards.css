@@ -21,11 +21,13 @@
     margin: 50px 0 45px;
   }
   
-  .card {
+  .card{
     margin-bottom: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
-  .cards-items {
+  .cards-items  {
     display: flex;
     flex: 1;
     margin: 0 1rem;
@@ -112,7 +114,7 @@
   }
   
   @media only screen and (max-width: 1024px) {
-    .cards__item {
+    .cards-item {
       margin-bottom: 2rem;
     }
   }
