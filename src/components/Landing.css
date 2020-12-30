@@ -7,14 +7,14 @@ img {
 }
 
 .landing-container{
-    /*bacgkround: url('../../images/landing-img.jpg') center center/cover no-repeat;*/
+    background: url('./landing-img.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: inset 0 0 0 1000px rgba (0,0,0,0.2);
+    box-shadow: inset 0 0 0 100px rgba (0,0,0,0.2);
     object-fit: contain;
 }
 
@@ -38,7 +38,6 @@ img {
 
 .landing-btn .btn{
     margin: 6px;
-
 }
 
 @media screen and (max-width: 960px) {
@@ -56,14 +55,14 @@ img {
 
     .landing-container > p {
         font-size: 30px;
-     }
-     .btn-mobile{
-         display: block;
-         text-decoration: none;
-         margin: 0px;
-     }
+    }
+    .btn-mobile{
+        display: block;
+        text-decoration: none;
+        margin: 0px;
+    }
 
-     .btn{
-         width: 60%;
-     }
+    .btn{
+        width: 60%;
+    }
 }
