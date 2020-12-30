@@ -3,9 +3,9 @@
 Amanda Yu\
 Univeristy of Waterloo\
 Systems Design, 2025\
-Reach me at: amanda.yu@uwaterloo.ca\
+Reach me at: amanda.yu@uwaterloo.ca
 
-Created with ReactJS\
+Created with ReactJS
 
 ## Available Scripts
 
