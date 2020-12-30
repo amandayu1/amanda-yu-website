@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Personal Porfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Amanda Yu\
+Univeristy of Waterloo\
+Systems Design Engineering, 2025\
+Reach me at: amanda.yu@uwaterloo.ca
+
+Created with ReactJS
 
 ## Available Scripts
 
