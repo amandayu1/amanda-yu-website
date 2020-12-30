@@ -1,33 +1,31 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './Cards.css';
 
-function Card() {
+function CardItem() {
     return (
-        <>
-            <li className="cards">
-                <Link className="cards-link">
-                    <figure className="cards-img-wrap">
-                        <img className="cards-img" src="/" alt="Project Icon"></img>
-                    </figure>
-                    <div className="cards-description">
-                        <div className="cards-text">
-
-                        </div>
-                    </div>
-                </Link>
-            </li>  
-        </>
+        <li className="card">
+            <Link to="/"className="card-link">
+                <figure className="card-img-wrap">
+                    <img className="card-img" src="/" alt="Project Icon"/>
+                </figure>
+                
+                <div className="card-description">
+                    <h5 className="card-text">TEXT</h5>
+                </div>
+            </Link>
+        </li>  
     )
 }
 
 export function Cards(){
     return(
-        <div className ="cards-container">
+        <div className ="cards">
             <h1>Check out these awesome projects!</h1>
             <div className="cards-container">
                 <div className="cards-wrapper">
                     <ul className="cards-items">
-                        <Card />
+                        <CardItem />
                     </ul>
                 </div>    
             </div> 

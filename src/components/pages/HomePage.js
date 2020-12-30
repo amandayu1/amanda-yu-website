@@ -1,15 +1,20 @@
 import React, {useState} from 'react';
 import '../../App.css';
 import Landing from "../Landing";
-
 import smartCart from "../smartCart.png";
 import coronavrus from "../coronavrus.jpg";
-
+import Navbar from '../Navbar';
+import Cards from '../Cards';
+import { Button } from '../Button';
 
 function Header() {
-    return(
-      <header>
-        <h1>Amanda's website</h1>
+  const [page, setContact] = useState("my skills.");  
+  return(
+      <header className="App">
+        <h1>Take a look at {page}.</h1> 
+        <Button className="btns" onClick={() => setContact("Development")}>Development</Button>
+        <Button className="btns" onClick={() => setContact("Design")}>Design</Button> 
+        <Button className="btns" onClick={() => setContact("Product Management")}>Product Management</Button>
       </header>
     )
   }
@@ -49,20 +54,13 @@ function Header() {
   const listObjects = listThing.map((listItem, i) => ({id: i, title: listItem}))
   
   export function HomePage() {
-    const [page, setContact] = useState("Home");
-    const [loading, setLoading] = useState(false);
+    /*const [loading, setLoading] = useState(false);*/
     return (
       <div className="App">
+        <Navbar header="My Website Homepage"/>
         <Landing />  
-        <h1>Take a look at {page}.</h1> 
-        <button onClick={() => setContact("Resume")}>Resume</button> 
-        <button onClick={() => setContact("Development")}>Development</button>
-        <button onClick={() => setContact("Design")}>Design</button> 
-        <button onClick={() => setContact("Product Management")}>Product Management</button>
-        
         <Header />  
-
-
+        <Cards />
         <ProjectCard
           image={smartCart}
           alt="SmartCart logo"

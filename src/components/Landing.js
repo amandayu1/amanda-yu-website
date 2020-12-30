@@ -7,7 +7,7 @@ import "./Landing.css";
 function Landing() {
     return (
         <div className="landing-container">
-            <img src="/images/landing-img.jpg"></img>
+            <img src="/images/landing-img.jpg" alt="Page Banner, welcome to the page."></img>
             <h1> Welcome to my website.</h1>
             <p>Inspirational tagline</p>
             

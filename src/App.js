@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Home, About, Contact, Error404 } from "./components/Pages";
-import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
+import { About, Contact, Error404 } from "./components/pages";
 import HomePage from './components/pages/HomePage';
-
-
 
 function App() {
 	return (
 		<div>
 		<Routes>
-	    	<Route path="/" element={<Home />} />
+	    	<Route path="/" element={<HomePage />} />
 			<Route path="/about" element={<About />} />
 			<Route path="/contact" element={<Contact />} />
 			<Route path="/*" element={<Error404 />} />

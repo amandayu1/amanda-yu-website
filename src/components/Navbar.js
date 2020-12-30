@@ -1,32 +1,20 @@
 import React, { useState } from 'react'
 import "./Navbar.css";
 import {Link} from "react-router-dom";
-import { Button } from './Button';
-import { Home, About, Contact, Error404 } from "./Pages";
 
 export function Navbar({header}) {
 	const [click, setClick] = useState(false);
-	const [button, setButton] = useState(true);
 
 	const handleClick = () => setClick(!click);
 	const closeMobileMenu = () => setClick(false);
 	
-	const showButton = () =>{
-		if(window.innerWidth <= 960){
-			setButton(false);
-		}
-		else {
-			setButton(true);
-		}
-	};
-	
-	window.addEventListener("resize", showButton);
-	
 	return (
 		<>
 			<nav className="navbar">
-				<div className="navbar-container">
-					<h1>{header}</h1>
+			{/*Remember to change css so that there's a gap at the top*/}
+			{/*<h1>{header}</h1>*/}
+			{/*other header colours should be white*/}
+				<div className="navbar-container">				
 					{/*toggle icon*/}
 					<div className="menu-icon" onClick={handleClick}>
 						<i className={click ? "fas fa-times" : "fas fa-bars"} />
