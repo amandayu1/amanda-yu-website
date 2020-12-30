@@ -68,7 +68,7 @@ function Header() {
           alt="Coronavrus logo"
           projLink="https://devpost.com/software/coronavrus"
           proj_name="Coronavrus"
-          proj_description="An educational augmented reality app to show you how long COVID-19 can live on different surfaces"/>
+          proj_description="An educational augmented reality app to show you how long COVID-19 can live on different surfaces."/>
           <ListRandom listThing={listObjects} />
         <Footer year={new Date().getFullYear()} />
       </div>
