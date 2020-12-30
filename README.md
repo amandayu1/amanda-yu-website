@@ -2,7 +2,7 @@
 
 Amanda Yu\
 Univeristy of Waterloo\
-Systems Design, 2025\
+Systems Design Engineering, 2025\
 Reach me at: amanda.yu@uwaterloo.ca
 
 Created with ReactJS
