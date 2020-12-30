@@ -8,14 +8,14 @@ import HomePage from './components/pages/HomePage';
 
 function App() {
 	return (
-		<div>
+		<>
 		<Routes>
 	    	<Route path="/" element={<HomePage />} />
 			<Route path="/about" element={<About />} />
 			<Route path="/contact" element={<Contact />} />
 			<Route path="/*" element={<Error404 />} />
     	</Routes>
-		</div>
+		</>
 	)
 }
 
