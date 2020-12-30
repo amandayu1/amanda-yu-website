@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
-import '../App.css';
+import '../../App.css';
+import Landing from "../Landing";
 
-import smartCart from "./smartCart.png";
-import coronavrus from "./coronavrus.jpg";
+import smartCart from "../smartCart.png";
+import coronavrus from "../coronavrus.jpg";
+
 
 function Header() {
     return(
@@ -51,11 +53,16 @@ function Header() {
     const [loading, setLoading] = useState(false);
     return (
       <div className="App">
-        <h1>This is the {page} page.</h1> 
-        <button onClick={() => setContact("Home")}>Home</button>
-        <button onClick={() => setContact("Contact Me")}>Contact Me</button> 
+        <Landing />  
+        <h1>Take a look at {page}.</h1> 
         <button onClick={() => setContact("Resume")}>Resume</button> 
-        <Header />    
+        <button onClick={() => setContact("Development")}>Development</button>
+        <button onClick={() => setContact("Design")}>Design</button> 
+        <button onClick={() => setContact("Product Management")}>Product Management</button>
+        
+        <Header />  
+
+
         <ProjectCard
           image={smartCart}
           alt="SmartCart logo"
@@ -73,3 +80,5 @@ function Header() {
       </div>
     );
   }
+
+  export default HomePage;

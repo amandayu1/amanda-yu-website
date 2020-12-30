@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import "./Navbar.css";
 import {Link} from "react-router-dom";
 import { Button } from './Button';
+import { Home, About, Contact, Error404 } from "./Pages";
 
-export function Navbar() {
+export function Navbar({header}) {
 	const [click, setClick] = useState(false);
 	const [button, setButton] = useState(true);
 
@@ -25,6 +26,7 @@ export function Navbar() {
 		<>
 			<nav className="navbar">
 				<div className="navbar-container">
+					<h1>{header}</h1>
 					{/*toggle icon*/}
 					<div className="menu-icon" onClick={handleClick}>
 						<i className={click ? "fas fa-times" : "fas fa-bars"} />
