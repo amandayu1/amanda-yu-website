@@ -2,19 +2,19 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './Cards.css';
 
-function CardItem() {
+function Card() {
     return (
         <li className="card">
             <Link to="/"className="card-link">
                 <figure className="card-img-wrap">
-                    <img className="card-img" src="/" alt="Project Icon"/>
+                    <img className="card-img" alt="Project Icon"/>
                 </figure>
                 
                 <div className="card-description">
                     <h5 className="card-text">TEXT</h5>
                 </div>
             </Link>
-        </li>  
+        </li>
     )
 }
 
@@ -25,7 +25,7 @@ export function Cards(){
             <div className="cards-container">
                 <div className="cards-wrapper">
                     <ul className="cards-items">
-                        <CardItem />
+                        <Card src="./images/smartCart.png" text="Project Logo"/>
                     </ul>
                 </div>    
             </div> 

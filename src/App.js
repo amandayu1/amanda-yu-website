@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Route, Routes } from "react-router-dom";
-import { About, Contact, Error404 } from "./components/pages";
+import { About} from "./components/pages/About.js";
+import { Contact} from "./components/pages/Contact.js";
+import { Error404 } from "./components/pages/Error404.js";
 import HomePage from './components/pages/HomePage';
 
 function App() {

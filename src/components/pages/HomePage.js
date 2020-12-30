@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import '../../App.css';
 import Landing from "../Landing";
-import smartCart from "../smartCart.png";
-import coronavrus from "../coronavrus.jpg";
 import Navbar from '../Navbar';
 import Cards from '../Cards';
+import Footer from '../Footer';
 import { Button } from '../Button';
+import smartCart from "../images/smartCart.png";
+import coronavrus from "../images/coronavrus.jpg";
 
 function Header() {
   const [page, setContact] = useState("my skills.");  
@@ -30,31 +31,26 @@ function Header() {
       </section>
     )
   }
-  
-  function Footer({listThing, year}){
-    return(
-      <footer>
-        <ul style={{textAlign: "left"}}>
-          {listThing.map( (listItemThingTemp) =>
-          <li key={listItemThingTemp.id}>{listItemThingTemp.title}</li>)}
-        </ul>
-        <p>Contact me</p>
-        <p>Copyright © {year}</p>
    
-      </footer>
+  function ListRandom({listThing}){
+    return(
+      <ul style={{textAlign: "left"}}>
+        {listThing.map( (listItemThingTemp) =>
+        <li key={listItemThingTemp.id}>{listItemThingTemp.title}</li>)}
+      </ul>
     )
   }
   
-  const listThing = [
-    "Engineering",
-    "GEM",
-    "list item 3"
-  ]
-  
-  const listObjects = listThing.map((listItem, i) => ({id: i, title: listItem}))
   
   export function HomePage() {
     /*const [loading, setLoading] = useState(false);*/
+    /*Cant declare these two const anywhere */
+    const listThing = [
+      "Engineering",
+      "GEM",
+      "list item 3"
+    ]
+    const listObjects = listThing.map((listItem, i) => ({id: i, title: listItem}))
     return (
       <div className="App">
         <Navbar header="My Website Homepage"/>
@@ -74,7 +70,8 @@ function Header() {
           projLink="https://devpost.com/software/coronavrus"
           proj_name="Coronavrus"
           proj_description="An educational augmented reality app to show you how long COVID-19 can live on different surfaces"/>
-        <Footer year={new Date().getFullYear()} listThing={listObjects}/>
+          <ListRandom listThing={listObjects} />
+        <Footer year={new Date().getFullYear()} />
       </div>
     );
   }
