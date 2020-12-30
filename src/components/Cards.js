@@ -27,14 +27,14 @@ export function Cards(){
                     <ul className="cards-items">
                         <Card
                             src="images/smartCart.png"
-                            text= "Project text description"
-                            label="Project at a hackathon"
+                            text= "Grocery App on mobile used to scan items. https://devpost.com/software/grocery-app-n0ps83"
+                            label="Project at Citizen Hacks"
                             path="/about"
                         />
                         <Card
                             src="images/coronavrus.jpg"
-                            text= "Project text description"
-                            label="Project at a TOHacks"
+                            text= "An educational augmented reality app to show you how long COVID-19 can live on different surfaces. https://devpost.com/software/coronavrus"
+                            label="Project at TOHacks"
                             path="/about"
                         />
                     </ul>

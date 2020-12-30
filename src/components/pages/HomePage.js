@@ -19,19 +19,7 @@ function Header() {
     )
   }
   
-  function ProjectCard({image , alt, proj_name, projLink, proj_description}){
-    return(
-      <section style={{border: "2px solid grey"}}>
-        <img src={image} width={300} alt={alt}/>
-        <h1>{proj_name}</h1>
-        <lead><a href={projLink} class="active" style={{color: 'blue'}} activeStyle={{color: 'grey'}}>
-          Click here!</a></lead>
-        <p>{proj_description}</p>
-      </section>
-    )
-  }
-   
-  function ListRandom({listThing}){
+ function ListRandom({listThing}){
     return(
       <ul style={{textAlign: "left"}}>
         {listThing.map( (listItemThingTemp) =>
@@ -56,20 +44,7 @@ function Header() {
         <Landing />  
         <Header />  
         <Cards />
-        <ProjectCard
-          image=""
-          alt="SmartCart logo"
-          projLink="https://devpost.com/software/grocery-app-n0ps83"
-          proj_name="Unzucc.me"
-          proj_description="Grocery App on moblie used to scan items"
-          />
-        <ProjectCard
-          image=""
-          alt="Coronavrus logo"
-          projLink="https://devpost.com/software/coronavrus"
-          proj_name="Coronavrus"
-          proj_description="An educational augmented reality app to show you how long COVID-19 can live on different surfaces."/>
-          <ListRandom listThing={listObjects} />
+        <ListRandom listThing={listObjects} />
         <Footer year={new Date().getFullYear()} />
       </div>
     );
