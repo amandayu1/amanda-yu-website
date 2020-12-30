@@ -10,7 +10,7 @@ import { Button } from '../Button';
 function Header() {
   const [page, setContact] = useState("my skills");  
   return(
-      <header className="App">
+      <header className="App" style={{backgroundColor: "#eff", paddingTop: "20px", paddingBottom: "20px"}}>
         <h1>Take a look at {page}.</h1> 
         <Button className="btns" onClick={() => setContact("Development")}>Development</Button>
         <Button className="btns" onClick={() => setContact("Design")}>Design</Button> 
@@ -21,7 +21,7 @@ function Header() {
   
  function ListRandom({listThing}){
     return(
-      <ul style={{textAlign: "left"}}>
+      <ul style={{backgroundColor: "#fff", margin:"0", paddingBottom: "20px"}}>
         {listThing.map( (listItemThingTemp) =>
         <li key={listItemThingTemp.id}>{listItemThingTemp.title}</li>)}
       </ul>
