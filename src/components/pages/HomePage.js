@@ -10,7 +10,7 @@ import { Button } from '../Button';
 function Header() {
   const [page, setContact] = useState("my skills");  
   return(
-      <header className="App" style={{backgroundColor: "#eff", paddingTop: "20px", paddingBottom: "20px"}}>
+      <header className="App" style={{backgroundColor: "#b0b0b0", paddingTop: "20px", paddingBottom: "20px"}}>
         <h1>Take a look at {page}.</h1> 
         <Button className="btns" onClick={() => setContact("Development")}>Development</Button>
         <Button className="btns" onClick={() => setContact("Design")}>Design</Button> 

@@ -7,7 +7,7 @@ export function About() {
     return(
         <div className="about">
             <Navbar header="About Page"/>
-            <h1 className="About">About Page</h1>
+            <h1 className="about">About Page</h1>
             <Footer />
         </div>
     );

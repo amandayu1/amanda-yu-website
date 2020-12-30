@@ -7,7 +7,7 @@ function Footer({listThing, year}){
       <footer className="footer-container">
         <section className="footer-contact">
           <p className="footer-contact-heading">Contact me</p>
-          <div>
+            <div>
             <form>
               <input className="footer-input" type="email" name="email" placeholder="Your Email"></input>
               <Button buttonStyle="btn--outline">Submit</Button> 
