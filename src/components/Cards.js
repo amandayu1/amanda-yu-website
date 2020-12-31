@@ -25,7 +25,7 @@ function CardItem(props) {
 
 function Cards() {
 	return (
-	  <div className='cards'>
+	  <div className='cards' id="projects">
 		 <h1>Check out my projects.</h1>
 		 <div className='cards__container'>
 			<div className='cards__wrapper'>

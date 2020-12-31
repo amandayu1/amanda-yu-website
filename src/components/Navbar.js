@@ -24,10 +24,10 @@ export function Navbar({header}) {
 							<Link to="/" className="nav-links" onClick={closeMobileMenu}>Home</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/about" className="nav-links" onClick={closeMobileMenu}>About</Link>
+							<Link to="/about" className="nav-links" onClick={closeMobileMenu}>Projects</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/contact" className="nav-links" onClick={closeMobileMenu}>Contact</Link>
+							<Link to="/contact" className="nav-links" onClick={closeMobileMenu}>About</Link>
 						</li>
 					</ul>
 				</div>

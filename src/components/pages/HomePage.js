@@ -5,6 +5,7 @@ import Navbar from '../Navbar';
 import Cards from '../Cards';
 import Footer from '../Footer';
 import { Button } from '../Button';
+import { About } from '../About';
 
 
 function Header() {
@@ -43,6 +44,7 @@ function Header() {
         <Navbar header="Home"/>
         <Landing />  
         {/*<Header /> */}
+        <About />
         <Cards />
         {/*<ListRandom listThing={listObjects} />*/}
         <Footer year={new Date().getFullYear()} />
