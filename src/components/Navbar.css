@@ -116,9 +116,9 @@
             display: table;
         }
         .nav-links:hover {
-            background-color: #fff;
+            background-color: rgb(148, 148, 148);
             color: #242424;
-            border-radius: 0;
+            border-radius: 1px;
         }
         .navbar-logo {
             position: absolute;
@@ -155,8 +155,8 @@
             transition: all 0.3s ease-out;
         }
         .nav-links-mobile:hover {
-            background: #fff;
-            color: #242424;
+            background: rgb(172, 172, 172);
+            color: #0f0f0f;
             transition: 250ms;
         }
     }

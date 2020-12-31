@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-scroll';
 import { Button } from "./Button";
 import "./Footer.css";
 
@@ -21,10 +21,10 @@ function Footer({listThing, year}){
           <div className="footer-link-wrapper">
             <div className="footer-link-item">
             <h2>About Me</h2>
-              <Link to="/">Home</Link>
-              <Link to="/">Resume</Link>
-              <Link to="/">Contact Me</Link>
-              <Link to="/">About Me</Link>
+							<Link activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
+              <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
+              <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
+              <Link activeClass="active" to="/" spy={true} smooth={true} duration={1250}>Resume</Link>
             </div>
             <div className="footer-link-item">
               <h2>Development Projs</h2>
@@ -51,27 +51,27 @@ function Footer({listThing, year}){
              Powered by Heroku
             </small>
             <div className="social-icons">
-              <Link to="/"
+            <a href="mailto: amanda.yu@uwaterloo.ca"
                 className="social-icons-link email"
                 target="_blank"
                 aria-label="Email"
               >
                 <i className="far fa-envelope"></i>
-              </Link>
-              <Link to="/"
+              </a>
+              <a href="https://github.com/amandayu1"
                 className="social-icons-link github"
                 target="_blank"
                 aria-label="Github"
               >
                 <i className="fab fa-github"></i>
-              </Link>
-              <Link to="/"
+              </a>
+              <a href="https://www.linkedin.com/in/amandayu1/"
                 className="social-icons-link linkedin"
                 target="_blank"
                 aria-label="Linkedin"
               >
                 <i className="fab fa-linkedin"></i>
-              </Link>
+              </a>
             </div>
             <small className="website-rights">
              Created using React © {year}

@@ -43,35 +43,6 @@
   color: rgb(28, 27, 27)
 }
 
-/* 
-.about {
-   /* background-image: url('/images/landing-img.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-color: #fff;
-}
-/* 
-.contact {
-  background-image: url('/images/landing-img.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-*/
-
- /*
-.error404 {
-  background-image: url('/images/landing-img.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-
-*/
-
 @media only screen and (max-width: 960px) {
   .page-content {
     padding: 0;
