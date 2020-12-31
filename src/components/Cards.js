@@ -29,37 +29,39 @@ function Cards() {
 		 <h1>Check out my projects.</h1>
 		 <div className='cards__container'>
 			<div className='cards__wrapper'>
+			<h1>Development</h1>
 			  <ul className='cards__items'>
-				 <CardItem
-					src='images/smartCart.png'
-					text='Grocery App on mobile used to scan items. https://devpost.com/software/grocery-app-n0ps83'
-					label='Project at a TOHacks'
+			  <CardItem
+					src='images/unzucc.png'
+					text='Created at Citizen Hacks. https://github.com/amandayu1/unzucc.me'
+					label='Unzucc.me'
 					path='/progress'
 				 />
 				 <CardItem
-					src='images/coronavrus.jpg'
-					text='An educational augmented reality app to show you how long COVID-19 can live on different surfaces. https://devpost.com/software/coronavrus'
-					label='Project at Citizen Hacks'
+					src='images/smartCart.png'
+					text='Grocery App on mobile used to scan items, created at Citizen Hacks. https://devpost.com/software/grocery-app-n0ps83'
+					label='SmartCart '
 					path='/progress'
 				 />
 			  </ul>
+			  <h1>Design</h1>
 			  <ul className='cards__items'>
 			  <CardItem
-					src='images/smartCart.png'
-					text='Grocery App on mobile used to scan items. https://devpost.com/software/grocery-app-n0ps83'
-					label='Project at a TOHacks'
+					src='images/reach.png'
+					text='Created using Wix during FIRST Robotics STEMAThon. https://amandayu2002.wixsite.com/thereachinitiative'
+					label='The Reach Initiative'
 					path='/progress'
 				 />
 				 <CardItem
-					src='images/coronavrus.jpg'
-					text='An educational augmented reality app to show you how long COVID-19 can live on different surfaces. https://devpost.com/software/coronavrus'
-					label='Project at Citizen Hacks'
+					src='images/stream.png'
+					text='Created using Wix for a non-profit young organization https://www.streamsyndicate-canada.com/'
+					label='STREAM Syndicate'
 					path='/progress'
 				 />
-				 <CardItem
+				<CardItem
 					src='images/coronavrus.jpg'
-					text='An educational augmented reality app to show you how long COVID-19 can live on different surfaces. https://devpost.com/software/coronavrus'
-					label='Project at Citizen Hacks'
+					text='An educational augmented reality app to show you how long COVID-19 can live on different surfaces. Created at Citizen Hacks https://devpost.com/software/coronavrus'
+					label='Coronavrus'
 					path='/progress'
 				 />
 			  </ul>
