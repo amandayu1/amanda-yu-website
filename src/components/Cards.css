@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 4rem 4rem 1rem 4rem;
   background: #fff;
 }
 
@@ -22,7 +22,7 @@ h1 {
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  margin-bottom: 5%;
 }
 
 .cards__item {
@@ -84,19 +84,22 @@ h1 {
   object-fit: cover;
   transition: all 0.2s linear;
 }
-
-.cards__item__img:hover {
+.cards__item__img:hover{
   transform: scale(1.1);
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 3.5% 3.7% 3.7%;
 }
 
 .cards__item__text {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+}
+
+.cards__wrapper h1{
+  margin-bottom: 4%;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -109,10 +112,21 @@ h1 {
   .cards__items {
     display: flex;
   }
+  .cards__container {
+    width: 50%;
+  }
 }
+
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+  .cards {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .cards__container {
+    width: 84%;
   }
 }

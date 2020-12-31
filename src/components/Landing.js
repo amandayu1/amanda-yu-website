@@ -8,8 +8,8 @@ function Landing() {
     return (
         <div className="landing-container">
             <img src="images/landing-img.jpg" alt="Page Banner, welcome to the page."></img>
-            <h1> Welcome to my website.</h1>
-            <p>Inspirational tagline</p>
+            <h1>Amanda Yu</h1>
+            <p>Welcome to my website.</p>
             
             {/*Landing page button*/}
             <div className="landing-btn">

@@ -80,6 +80,9 @@
    transition: 0.3s ease-out;
 }
 
+#stream{
+   height: 200px;
+}
 
 /*Sdelete below?*/
 .footer-email-form h2{

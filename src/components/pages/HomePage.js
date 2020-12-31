@@ -40,7 +40,7 @@ function Header() {
     const listObjects = listThing.map((listItem, i) => ({id: i, title: listItem}))
     return (
       <div className="home">
-        <Navbar header="My Website Homepage"/>
+        <Navbar header="Home"/>
         <Landing />  
         {/*<Header /> */}
         <Cards />
