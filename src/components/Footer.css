@@ -55,7 +55,7 @@
    flex-direction: column;
    align-items: center;
    margin: 16px;
-   width: 160px;
+   width: 200px;
    box-sizing: border-box;
 }
 
@@ -116,10 +116,12 @@
 }
 
 .social-icons{
+   
    display: flex;
    justify-content: space-between;
    align-items: center;
    width: 240px;
+   
 }
 
 .social-logo{
@@ -157,5 +159,9 @@
    }
    .footer-link-item{
       align-items: center;
+   }
+   .social-icons{
+      padding-top: 10px;
+      padding-bottom: 20px;
    }
 }

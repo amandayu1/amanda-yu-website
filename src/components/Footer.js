@@ -27,15 +27,18 @@ function Footer({listThing, year}){
               <Link to="/">About Me</Link>
             </div>
             <div className="footer-link-item">
-              <h2>Projects</h2>
-              <a target="_blank" href="http://waterloobasics.com/" rel="noreferrer"> Waterloo Basics</a>
+              <h2>Development Projs</h2>
               <a target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">Preposition</a>
+              <a target="_blank" href="http://waterloobasics.com/" rel="noreferrer"> Waterloo Basics</a>
+              <a target="_blank" href="https://github.com/amandayu1/amanda-yu-website" rel="noreferrer">Portfolio Website</a>
               <a target="_blank" href="https://github.com/amandayu1/unzucc.me" rel="noreferrer">Unzucc.me</a>
               <a target="_blank" href="https://devpost.com/software/grocery-app-n0ps83" rel="noreferrer">Smart Cart</a>
+            </div>
+            <div className="footer-link-item">
+              <h2>Design Projs</h2>
               <a target="_blank" href="https://amandayu2002.wixsite.com/thereachinitiative" rel="noreferrer"> The Reach Initiative</a>
               <a target="_blank" href="https://www.streamsyndicate-canada.com/" rel="noreferrer">Stream Syndicate</a>
               <a target="_blank" href="https://devpost.com/software/coronavrus" rel="noreferrer">Coronavrus</a>
-              
             </div>
           </div>
           {/*end of footer link wrapper*/}
@@ -44,13 +47,8 @@ function Footer({listThing, year}){
         {/*footer social media section*/}
         <section className="social-media">
           <div className="social-media-wrap">
-            <div className="social-media-logo">
-                <Link to='/' className="social-logo">
-                  Amanda Yu {/*<i className='fab fa-typo3'/>*/}
-                </Link>
-            </div>
             <small className="website-rights">
-              Copyright © {year}
+             Powered by Heroku
             </small>
             <div className="social-icons">
               <Link to="/"
@@ -75,6 +73,9 @@ function Footer({listThing, year}){
                 <i className="fab fa-linkedin"></i>
               </Link>
             </div>
+            <small className="website-rights">
+             Created using React © {year}
+            </small>
           </div>
         </section>
       </footer>
