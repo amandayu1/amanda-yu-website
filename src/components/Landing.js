@@ -16,7 +16,7 @@ function Landing() {
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
                     My Resume
                 </Button>
-                <Button className="btns" buttonSize="btn--large" path="/#projects">
+                <Button className="btns" buttonSize="btn--large" path="projects">
                     Projects
                 </Button>
             </div>

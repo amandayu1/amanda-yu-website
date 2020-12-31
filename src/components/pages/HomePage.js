@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import '../../App.css';
 import Landing from "../Landing";
 import Navbar from '../Navbar';
 import Cards from '../Cards';
@@ -40,7 +39,7 @@ function Header() {
     ]
     const listObjects = listThing.map((listItem, i) => ({id: i, title: listItem}))
     return (
-      <div className="home">
+      <div className="home" id="home">
         <Navbar header="Home"/>
         <Landing />  
         {/*<Header /> */}

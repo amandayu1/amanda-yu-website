@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Navbar.css";
-import {Link} from "react-router-dom";
+import { Link } from 'react-scroll';
 
 export function Navbar({header}) {
 	const [click, setClick] = useState(false);
@@ -11,8 +11,9 @@ export function Navbar({header}) {
 	return (
 		<>
 			<nav className="navbar">
-			{/*Remember to change css so that there's a gap at the top*/}
-			<h1>{header}</h1>
+			{/*Remember to change css so that there's a gap at the top
+			<h1>{header}</h1>*/}
+			<h1>Amanda Yu</h1>
 				<div className="navbar-container">				
 					{/*toggle icon*/}
 					<div className="menu-icon" onClick={handleClick}>
@@ -21,13 +22,16 @@ export function Navbar({header}) {
 					{/*toggle appear/ disseaper*/}
 					<ul className={click ? "nav-menu active" : "nav-menu"} >
 						<li className="nav-item">
-							<Link to="/" className="nav-links" onClick={closeMobileMenu}>Home</Link>
+							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="home" spy={true} smooth={true} duration={1000}>Home</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/about" className="nav-links" onClick={closeMobileMenu}>Projects</Link>
+							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>Projects</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/contact" className="nav-links" onClick={closeMobileMenu}>About</Link>
+							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="about" spy={true} smooth={true} duration={1000}>About</Link>
+						</li>
+						<li className="nav-item">
+							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>
 						</li>
 					</ul>
 				</div>

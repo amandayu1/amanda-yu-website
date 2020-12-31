@@ -6,7 +6,7 @@ function Footer({listThing, year}){
     return(
       <footer className="footer-container">
         <section className="footer-contact">
-          <p className="footer-contact-heading">Contact me</p>
+          <p className="footer-contact-heading" id="contact">Contact me</p>
             <div>
             <form>
               <input className="footer-input" type="email" name="email" placeholder="Your Email"></input>
