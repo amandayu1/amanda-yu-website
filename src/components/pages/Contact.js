@@ -7,8 +7,7 @@ export function Contact() {
     return(
         <div className="contact">
             <Navbar header="Contact Me" />
-            <h1 className="contact">Contact Me</h1>
-            <Footer />
+            <Footer year={new Date().getFullYear()}/>
         </div>
     );
 }

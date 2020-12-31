@@ -42,9 +42,9 @@ function Header() {
       <div className="home">
         <Navbar header="My Website Homepage"/>
         <Landing />  
-        <Header />  
+        {/*<Header /> */}
         <Cards />
-        <ListRandom listThing={listObjects} />
+        {/*<ListRandom listThing={listObjects} />*/}
         <Footer year={new Date().getFullYear()} />
       </div>
     );

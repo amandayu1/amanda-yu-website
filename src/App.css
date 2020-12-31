@@ -8,31 +8,47 @@
 .home,
 .about,
 .contact,
-.error404 {
-  /* align-items: center;
+.error404 {  
+  /* flex-direction: column;
+  align-items: center;
   justify-content: center;*/
 }
 
+.page-content{
+  margin: 7%;
+  margin-top: 5%;
+}
+
+.page-content h1{
+  margin: 4%;
+  
+}
+
+/* 
 .about {
- /* background-image: url('/images/landing-img.jpg');
+   /* background-image: url('/images/landing-img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+color: #fff;
+}
+/* 
+.contact {
+  background-image: url('/images/landing-img.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+*/
+
+ /*
+.error404 {
+  background-image: url('/images/landing-img.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
 }
 
-.contact {
- /* background-image: url('/images/landing-img.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;*/
-  color: #fff;
-}
-
-.error404 {
-  /* background-image: url('/images/landing-img.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;*/
-  color: #fff;
-}
+*/
