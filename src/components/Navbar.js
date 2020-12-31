@@ -25,13 +25,13 @@ export function Navbar({header}) {
 							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="home" spy={true} smooth={true} duration={1000}>Home</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>Projects</Link>
+							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="about" spy={true} smooth={true} offset={-75} duration={1000}>About</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="about" spy={true} smooth={true} duration={1000}>About</Link>
+							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1000}>Projects</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>
+							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="contact" spy={true} smooth={true} duration={1250}>Contact</Link>
 						</li>
 					</ul>
 				</div>

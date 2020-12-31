@@ -22,16 +22,20 @@ function Footer({listThing, year}){
             <div className="footer-link-item">
             <h2>About Me</h2>
               <Link to="/">Home</Link>
-              <Link to="/contact">Resume</Link>
-              <Link to="/contact">Contact Me</Link>
-              <Link to="/about">About Me</Link>
+              <Link to="/">Resume</Link>
+              <Link to="/">Contact Me</Link>
+              <Link to="/">About Me</Link>
             </div>
             <div className="footer-link-item">
-            <h2>Projects</h2>
-              <Link to="/">Waterloo Basics</Link>
-              <Link to="/">Preposition</Link>
-              <Link to="/">Unzucc.me</Link>
-              <Link to="/">Smart Cart</Link>
+              <h2>Projects</h2>
+              <a target="_blank" href="http://waterloobasics.com/" rel="noreferrer"> Waterloo Basics</a>
+              <a target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">Preposition</a>
+              <a target="_blank" href="https://github.com/amandayu1/unzucc.me" rel="noreferrer">Unzucc.me</a>
+              <a target="_blank" href="https://devpost.com/software/grocery-app-n0ps83" rel="noreferrer">Smart Cart</a>
+              <a target="_blank" href="https://amandayu2002.wixsite.com/thereachinitiative" rel="noreferrer"> The Reach Initiative</a>
+              <a target="_blank" href="https://www.streamsyndicate-canada.com/" rel="noreferrer">Stream Syndicate</a>
+              <a target="_blank" href="https://devpost.com/software/coronavrus" rel="noreferrer">Coronavrus</a>
+              
             </div>
           </div>
           {/*end of footer link wrapper*/}

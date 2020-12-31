@@ -27,7 +27,8 @@
 }
 
 .page-content h1{
-  padding: 3%;
+  padding: 2%;
+  font-size: 50px;
   background: white;
   color: rgb(28, 27, 27)
 }
