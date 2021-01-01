@@ -67,7 +67,7 @@ h1 {
   margin-left: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   color: #fff;
   background-color: #1f98f4;
@@ -89,9 +89,18 @@ h1 {
   transition: all 0.2s linear;
 }
 
-.cards__item__img:hover{
+.cards__item__pic-wrap:hover{
   transform: scale(1.1);
+  padding-left: 10px;
 }
+
+/*to cover the entire card, but add time delay/animation
+.cards__item__pic-wrap:hover{
+  transform: scale(1.1);
+  margin-left: 20px;
+  padding: 0 0;
+}
+*/
 
 .cards__item__info {
   padding: 3.5% 3.7% 3.7%;

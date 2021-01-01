@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll';
+import { Links } from 'react-router-dom';
 import { Button } from "./Button";
 import "./Footer.css";
 
@@ -24,8 +25,18 @@ function Footer({listThing, year}){
 							<Link activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
               <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
               <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
-              <Link activeClass="active" to="/" spy={true} smooth={true} duration={1250}>Resume</Link>
-            </div>
+              <a href="images/Yu_Amanda.pdf" target="_blank">Resume</a>
+              
+              {/*
+              <BlobProvider document={MyDoc}>
+              {({ url }) => (
+                <a href={url} target="_blank">Open in new tab</a>
+              )}
+            
+</BlobProvider>
+<a href='/api/v1/print/example.pdf' target='_blank'></a>
+*/}
+   </div>
             <div className="footer-link-item">
               <h2>Development Projs</h2>
               <a target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">Preposition</a>

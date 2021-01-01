@@ -1,6 +1,7 @@
 import React from 'react'
 import "../App.css";
 import { Button } from './Button';
+import { ButtonExt } from './ButtonExt';
 import "./Landing.css";
 
 
@@ -13,9 +14,11 @@ function Landing() {
             
             {/*Landing page button*/}
             <div className="landing-btn">
-                <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
+
+                <ButtonExt className="btns" buttonStyle="btn--outline" buttonSize="btn--large" href="images/Yu_Amanda.pdf" target="_blank">
                     My Resume
-                </Button>
+                </ButtonExt>
+
                 <Button className="btns" buttonSize="btn--large" path="projects">
                     Projects
                 </Button>
