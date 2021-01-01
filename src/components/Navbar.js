@@ -25,6 +25,9 @@ export function Navbar({header}) {
 							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="home" spy={true} smooth={true} duration={1000}>Home</Link>
 						</li>
 						<li className="nav-item">
+							<a className="nav-links" activeClass="active" href="images/Yu_Amanda.pdf" target="_blank" without rel="noopener noreferrer">Resume</a>
+						</li>
+						<li className="nav-item">
 							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="about" spy={true} smooth={true} offset={-75} duration={1000}>About</Link>
 						</li>
 						<li className="nav-item">

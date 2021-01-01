@@ -18,25 +18,23 @@ function Footer({listThing, year}){
 
         {/*footer link section*/}
         <div className="footer-link">
-
-          <div className="footer-link-wrapper">
             <div className="footer-link-item">
-            <h2>About Me</h2>
-							<Link activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
-              <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
-              <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
-              <a href="images/Yu_Amanda.pdf" target="_blank">Resume</a>
+              <h2>About Me</h2>
+                <Link activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
+                <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
+                <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
+                <a href="images/Yu_Amanda.pdf" target="_blank">Resume</a>
+                
+                {/* 
+                <BlobProvider document={MyDoc}>
+                {({ url }) => (
+                  <a href={url} target="_blank">Open in new tab</a>
+                )}
               
-              {/*
-              <BlobProvider document={MyDoc}>
-              {({ url }) => (
-                <a href={url} target="_blank">Open in new tab</a>
-              )}
-            
-</BlobProvider>
-<a href='/api/v1/print/example.pdf' target='_blank'></a>
-*/}
-   </div>
+                </BlobProvider>
+                <a href='/api/v1/print/example.pdf' target='_blank'></a>
+                */}
+              </div>
             <div className="footer-link-item">
               <h2>Development Projs</h2>
               <a target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">Preposition</a>
@@ -53,7 +51,7 @@ function Footer({listThing, year}){
             </div>
           </div>
           {/*end of footer link wrapper*/}
-        </div>
+        
 
         {/*footer social media section*/}
         <section className="social-media">

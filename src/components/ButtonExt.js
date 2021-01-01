@@ -10,7 +10,7 @@ export const ButtonExt =({children, type, onClick, buttonStyle, buttonSize, path
     const checkButtonSize = SIZES.includes(buttonSize)
         ? buttonSize: SIZES[0];
     return(
-        <a activeClass="active" href={path} >
+        <a activeClass="active" href={path} without rel="noopener noreferrer" target="_blank">
             <button
                 className= {`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}

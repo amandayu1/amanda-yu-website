@@ -15,7 +15,7 @@ function Landing() {
             {/*Landing page button*/}
             <div className="landing-btn">
 
-                <ButtonExt className="btns" buttonStyle="btn--outline" buttonSize="btn--large" href="images/Yu_Amanda.pdf" target="_blank">
+                <ButtonExt className="btns" buttonStyle="btn--outline" buttonSize="btn--large" path="images/Yu_Amanda.pdf">
                     My Resume
                 </ButtonExt>
 
