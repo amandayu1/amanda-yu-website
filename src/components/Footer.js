@@ -19,7 +19,7 @@ function Footer({listThing, year}){
 
         {/*footer link section*/}
         <div className="footer-link-wrapper">
-            <div className="footer-link-item" id="about">
+            <div className="footer-link-item" id="about-card">
               <h2>About</h2>
                 <Link className="footer-link" activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
                 <Link className="footer-link"activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
@@ -36,7 +36,7 @@ function Footer({listThing, year}){
                 <a href='/api/v1/print/example.pdf' target='_blank'></a>
                 */}
               </div>
-            <div className="footer-link-item" id="dev">
+            <div className="footer-link-item" id="dev-card">
               <h2>Development Projects</h2>
               <a className="footer-link" target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">PREPosition</a>
               <a className="footer-link" target="_blank" href="http://waterloobasics.com/" rel="noreferrer"> Waterloo Basics</a>
@@ -56,9 +56,6 @@ function Footer({listThing, year}){
         {/*footer social media section*/}
         <section className="social-media">
           <div className="social-media-wrap">
-            <small className="website-rights">
-             Powered by Heroku
-            </small>
             <div className="social-icons">
             <a href="mailto: amanda.yu@uwaterloo.ca"
                 className="social-icons-link email"
@@ -85,9 +82,12 @@ function Footer({listThing, year}){
                 <i className="fab fa-linkedin"></i>
               </a>
             </div>
+            
             <small className="website-rights">
-             Created using React © {year}
+             Created using React © {year} <br/>
+             Powered by Heroku
             </small>
+
           </div>
         </section>
       </footer>
