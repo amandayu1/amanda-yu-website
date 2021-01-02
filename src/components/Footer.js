@@ -5,6 +5,7 @@ import "./Footer.css";
 function Footer({listThing, year}){
     return(
       <footer className="footer-container">
+        {/*
         <section className="footer-contact">
           <p className="footer-contact-heading" id="contact">Contact me</p>
             <div>
@@ -14,11 +15,12 @@ function Footer({listThing, year}){
             </form>
           </div>
         </section>
+        */}
 
         {/*footer link section*/}
         <div className="footer-link-wrapper">
-            <div className="footer-link-item">
-              <h2>About Me</h2>
+            <div className="footer-link-item" id="about">
+              <h2>About</h2>
                 <Link className="footer-link" activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
                 <Link className="footer-link"activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
                 <Link className="footer-link" activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
@@ -34,24 +36,23 @@ function Footer({listThing, year}){
                 <a href='/api/v1/print/example.pdf' target='_blank'></a>
                 */}
               </div>
-            <div className="footer-link-item">
-              <h2>Development Projs</h2>
-              <a className="footer-link" target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">Preposition</a>
+            <div className="footer-link-item" id="dev">
+              <h2>Development Projects</h2>
+              <a className="footer-link" target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">PREPosition</a>
               <a className="footer-link" target="_blank" href="http://waterloobasics.com/" rel="noreferrer"> Waterloo Basics</a>
               <a className="footer-link" target="_blank" href="https://github.com/amandayu1/amanda-yu-website" rel="noreferrer">Portfolio Website</a>
               <a className="footer-link" target="_blank" href="https://github.com/amandayu1/unzucc.me" rel="noreferrer">Unzucc.me</a>
-              <a className="footer-link" target="_blank" href="https://devpost.com/software/grocery-app-n0ps83" rel="noreferrer">Smart Cart</a>
+              <a className="footer-link" target="_blank" href="https://devpost.com/software/grocery-app-n0ps83" rel="noreferrer">SmartCart</a>
             </div>
             <div className="footer-link-item">
-              <h2>Design Projs</h2>
+              <h2>Design Projects</h2>
               <a className="footer-link" target="_blank" href="https://amandayu2002.wixsite.com/thereachinitiative" rel="noreferrer"> The Reach Initiative</a>
-              <a className="footer-link"  target="_blank" href="https://www.streamsyndicate-canada.com/" rel="noreferrer">Stream Syndicate</a>
-              <a className="footer-link" target="_blank" href="https://devpost.com/software/coronavrus" rel="noreferrer">Coronavrus</a>
+              <a className="footer-link"  target="_blank" href="https://www.streamsyndicate-canada.com/" rel="noreferrer">STREAM Syndicate</a>
+              <a className="footer-link" target="_blank" href="https://devpost.com/software/coronavrus" rel="noreferrer">CoronaVRus</a>
             </div>
           </div>
           {/*end of footer link wrapper*/}
         
-
         {/*footer social media section*/}
         <section className="social-media">
           <div className="social-media-wrap">

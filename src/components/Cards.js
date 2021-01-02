@@ -13,7 +13,7 @@ function Cards() {
 			  <CardItem
 					src='images/prep.png'
 					text='Website for non-profit youth organization, created as a personal project'
-					label='Preposition'
+					label='PREPosition'
 					path='https://github.com/amandayu1/PREPosition-website'
 				/>
 				<CardItem
@@ -61,7 +61,7 @@ function Cards() {
 				 <CardItem
 					src='images/coronavrus.jpg'
 					text='An educational augmented reality app to show you how long COVID-19 can live on different surfaces. Created at Citizen Hacks '
-					label='Coronavrus'
+					label='CoronaVRus'
 					path='https://devpost.com/software/coronavrus'
 				 />	  
 				 </ul>

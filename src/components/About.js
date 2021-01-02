@@ -9,7 +9,7 @@ export function About() {
         <div className="page-content">
                 <p>
                     <img id="profile" src={profile} alt='Amanda in a suit, background is Toronto buildings skyline'/>
-                    Hi, I'm Amanda Yu, a student studying Systems Design Engineering at the University of Waterloo. I'm a tech enthusiast, product manager, software developer, and designer. Feel free to reach out to me if you would like to meet up for a coffee chat! (Accepting online requests currently.)
+                    Hi, I'm Amanda Yu, a Systems Design Engineering student at the University of Waterloo. I'm a tech enthusiast, product manager, software developer, and designer. I am currently seeking a co-op for the Fall 2021 term. I'm always on the lookout for opportunities to grow my problem solving, technical, and leadership skills. If you'd like to talk about up-and-coming products, exercising, or anything in the tech field, feel free to reach out to me for a coffee chat!
                 </p>
             </div>
         </div>

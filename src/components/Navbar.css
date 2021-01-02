@@ -55,7 +55,6 @@
     .nav-menu {
         display: grid;
         grid-template-columns: repeat(5, auto);
-        grid-gap: 10px;
         list-style: none;
         text-align: center;
         width: 60vw;
@@ -64,7 +63,7 @@
     }
     
     .nav-item {
-        height: 80px;
+        height: 150px;
     }
     
     .nav-links {
@@ -104,6 +103,7 @@
     @media screen and (max-width: 960px) {
         .NavbarItems {
             position: relative;
+            width: 100%;
         }
         .nav-menu {
             display: flex;
@@ -115,6 +115,8 @@
             left: -100%;
             opacity: 1;
             transition: all 0.5s ease;
+            padding-top: auto;
+            padding-bottom: auto;
         }
         .nav-menu.active {
             background: #242222;
@@ -122,12 +124,14 @@
             opacity: 1;
             transition: all 0.5s ease;
             z-index: 1;
+            text-align: middle;
         }
         .nav-links {
+            vertical-align: middle;
             text-align: center;
             padding: 2rem;
             width: 100%;
-            display: table;
+            justify-content: center;
         }
         .nav-links:hover {
             background-color: rgb(148, 148, 148);
