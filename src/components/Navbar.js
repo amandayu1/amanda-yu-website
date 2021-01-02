@@ -13,17 +13,17 @@ export function Navbar({header}) {
 			<nav className="navbar">
 			{/*Remember to change css so that there's a gap at the top
 			<h1>{header}</h1>*/}
-			<h1>Amanda Yu</h1>
-				<div className="navbar-container">				
+			<Link onClick={closeMobileMenu} activeClass="active" to="home" spy={true} smooth={true} duration={1000}>
+					<img src="images/logo.png" alt="Logo, initials A.Y."/>
+			</Link>
+				<div className="navbar-container">
 					{/*toggle icon*/}
 					<div className="menu-icon" onClick={handleClick}>
+					
 						<i className={click ? "fas fa-times" : "fas fa-bars"} />
 					</div>
 					{/*toggle appear/ disseaper*/}
 					<ul className={click ? "nav-menu active" : "nav-menu"} >
-						<li className="nav-item">
-							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="home" spy={true} smooth={true} duration={1000}>Home</Link>
-						</li>
 						<li className="nav-item">
 							<a className="nav-links" activeClass="active" href="images/Yu_Amanda.pdf" target="_blank" without rel="noopener noreferrer">Resume</a>
 						</li>

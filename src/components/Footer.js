@@ -1,5 +1,4 @@
 import { Link } from 'react-scroll';
-import { Links } from 'react-router-dom';
 import { Button } from "./Button";
 import "./Footer.css";
 
@@ -63,6 +62,7 @@ function Footer({listThing, year}){
             <a href="mailto: amanda.yu@uwaterloo.ca"
                 className="social-icons-link email"
                 target="_blank"
+                rel="noreferrer"
                 aria-label="Email"
               >
                 <i className="far fa-envelope"></i>
@@ -70,6 +70,7 @@ function Footer({listThing, year}){
               <a href="https://github.com/amandayu1"
                 className="social-icons-link github"
                 target="_blank"
+                rel="noreferrer"
                 aria-label="Github"
               >
                 <i className="fab fa-github"></i>
@@ -77,6 +78,7 @@ function Footer({listThing, year}){
               <a href="https://www.linkedin.com/in/amandayu1/"
                 className="social-icons-link linkedin"
                 target="_blank"
+                rel="noreferrer"
                 aria-label="Linkedin"
               >
                 <i className="fab fa-linkedin"></i>
