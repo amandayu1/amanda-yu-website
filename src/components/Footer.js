@@ -17,13 +17,13 @@ function Footer({listThing, year}){
         </section>
 
         {/*footer link section*/}
-        <div className="footer-link">
+        <div className="footer-link-wrapper">
             <div className="footer-link-item">
               <h2>About Me</h2>
-                <Link activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
-                <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
-                <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
-                <a href="images/Yu_Amanda.pdf" target="_blank">Resume</a>
+                <Link className="footer-link" activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
+                <Link className="footer-link"activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
+                <Link className="footer-link" activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
+                <a className="footer-link" href="images/Yu_Amanda.pdf" target="_blank">Resume</a>
                 
                 {/* 
                 <BlobProvider document={MyDoc}>
@@ -37,17 +37,17 @@ function Footer({listThing, year}){
               </div>
             <div className="footer-link-item">
               <h2>Development Projs</h2>
-              <a target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">Preposition</a>
-              <a target="_blank" href="http://waterloobasics.com/" rel="noreferrer"> Waterloo Basics</a>
-              <a target="_blank" href="https://github.com/amandayu1/amanda-yu-website" rel="noreferrer">Portfolio Website</a>
-              <a target="_blank" href="https://github.com/amandayu1/unzucc.me" rel="noreferrer">Unzucc.me</a>
-              <a target="_blank" href="https://devpost.com/software/grocery-app-n0ps83" rel="noreferrer">Smart Cart</a>
+              <a className="footer-link" target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">Preposition</a>
+              <a className="footer-link" target="_blank" href="http://waterloobasics.com/" rel="noreferrer"> Waterloo Basics</a>
+              <a className="footer-link" target="_blank" href="https://github.com/amandayu1/amanda-yu-website" rel="noreferrer">Portfolio Website</a>
+              <a className="footer-link" target="_blank" href="https://github.com/amandayu1/unzucc.me" rel="noreferrer">Unzucc.me</a>
+              <a className="footer-link" target="_blank" href="https://devpost.com/software/grocery-app-n0ps83" rel="noreferrer">Smart Cart</a>
             </div>
             <div className="footer-link-item">
               <h2>Design Projs</h2>
-              <a target="_blank" href="https://amandayu2002.wixsite.com/thereachinitiative" rel="noreferrer"> The Reach Initiative</a>
-              <a target="_blank" href="https://www.streamsyndicate-canada.com/" rel="noreferrer">Stream Syndicate</a>
-              <a target="_blank" href="https://devpost.com/software/coronavrus" rel="noreferrer">Coronavrus</a>
+              <a className="footer-link" target="_blank" href="https://amandayu2002.wixsite.com/thereachinitiative" rel="noreferrer"> The Reach Initiative</a>
+              <a className="footer-link"  target="_blank" href="https://www.streamsyndicate-canada.com/" rel="noreferrer">Stream Syndicate</a>
+              <a className="footer-link" target="_blank" href="https://devpost.com/software/coronavrus" rel="noreferrer">Coronavrus</a>
             </div>
           </div>
           {/*end of footer link wrapper*/}
