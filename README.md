@@ -1,5 +1,7 @@
 # Personal Porfolio Website
 
+Check it out at: https://amanda-yu-website.herokuapp.com/
+
 Amanda Yu\
 Univeristy of Waterloo\
 Systems Design Engineering, 2025\
