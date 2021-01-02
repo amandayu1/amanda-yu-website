@@ -91,16 +91,9 @@ h1 {
 
 .cards__item__pic-wrap:hover{
   transform: scale(1.1);
+  transition: all 0.2s linear;
   padding-left: 10px;
 }
-
-/*to cover the entire card, but add time delay/animation
-.cards__item__pic-wrap:hover{
-  transform: scale(1.1);
-  margin-left: 20px;
-  padding: 0 0;
-}
-*/
 
 .cards__item__info {
   padding: 3.5% 3.7% 3.7%;

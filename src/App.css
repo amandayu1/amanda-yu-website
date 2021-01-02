@@ -24,16 +24,21 @@
 }
 
 #profile{
-  margin-right: 9%;  
-  padding-right: 41%;    
+  margin-right: 9%;
   max-width: 100%;
   max-height: 100%;
-  width: 300px;
-  height: 300px;
+  width: 45%;
+  height: 45%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  transition: all 0.2s linear;
+  
+  border-radius: 8px;
 }
 
 #profile:hover{
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .about h1{
@@ -58,7 +63,7 @@
     max-width: 350px;
     width: 84%;
     margin-right: 0px; 
-    margin-bottom: 10%; 
-    padding: 25% 0; 
+    padding: 15% 0; 
+    border: 8px;
   } 
 }

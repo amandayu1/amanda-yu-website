@@ -14,7 +14,7 @@ export function Navbar({header}) {
 			{/*Remember to change css so that there's a gap at the top
 			<h1>{header}</h1>*/}
 			<Link onClick={closeMobileMenu} activeClass="active" to="home" spy={true} smooth={true} duration={1000}>
-					<img src="images/logo.png" alt="Logo, initials A.Y."/>
+					<img id="logo" src="images/logo.png" alt="Logo, initials A.Y."/>
 			</Link>
 				<div className="navbar-container">
 					{/*toggle icon*/}

@@ -10,7 +10,7 @@
         z-index: 999;
     }
 
-    img{
+    #logo{
         position: fixed;
         top: 6px;
         width: 68px;
@@ -18,7 +18,7 @@
         left: 20%;
     }
 
-    img:hover{
+    #logo:hover{
        transform: scale(1.1);
        cursor: pointer;
     }
@@ -173,7 +173,7 @@
             color: #0f0f0f;
             transition: 250ms;
         }
-        img{
+        #logo{
             transform: translate(0, -110%);
         }
     }
