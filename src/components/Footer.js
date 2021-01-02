@@ -6,8 +6,8 @@ function Footer({listThing, year}){
     return(
       <footer className="footer-container">
         {/*
-        <section className="footer-contact">
-          <p className="footer-contact-heading" id="contact">Contact me</p>
+        <section className="footer-contact" id="contact">
+          <p className="footer-contact-heading" >Contact me</p>
             <div>
             <form>
               <input className="footer-input" type="email" name="email" placeholder="Your Email"></input>
@@ -25,16 +25,6 @@ function Footer({listThing, year}){
                 <Link className="footer-link"activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
                 <Link className="footer-link" activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
                 <a className="footer-link" href="images/Yu_Amanda.pdf" target="_blank">Resume</a>
-                
-                {/* 
-                <BlobProvider document={MyDoc}>
-                {({ url }) => (
-                  <a href={url} target="_blank">Open in new tab</a>
-                )}
-              
-                </BlobProvider>
-                <a href='/api/v1/print/example.pdf' target='_blank'></a>
-                */}
               </div>
             <div className="footer-link-item" id="dev-card">
               <h2>Development Projects</h2>
