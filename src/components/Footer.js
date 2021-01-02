@@ -44,7 +44,7 @@ function Footer({listThing, year}){
               <a className="footer-link" target="_blank" href="https://github.com/amandayu1/unzucc.me" rel="noreferrer">Unzucc.me</a>
               <a className="footer-link" target="_blank" href="https://devpost.com/software/grocery-app-n0ps83" rel="noreferrer">SmartCart</a>
             </div>
-            <div className="footer-link-item">
+            <div className="footer-link-item" id="design-card">
               <h2>Design Projects</h2>
               <a className="footer-link" target="_blank" href="https://amandayu2002.wixsite.com/thereachinitiative" rel="noreferrer"> The Reach Initiative</a>
               <a className="footer-link"  target="_blank" href="https://www.streamsyndicate-canada.com/" rel="noreferrer">STREAM Syndicate</a>

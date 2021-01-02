@@ -61,20 +61,16 @@
    box-sizing: border-box;
 }
 
-#about-card{
-   width: 160px;
-}
-
-#dev-card{
-   width: 180px;
-}
-
 .footer-link-item h2{
    font-family: 'PT Sans', sans-serif;
    font-weight: 500;
    font-size: 1.3rem;
    color: #fff;
    margin-bottom: 18px;
+}
+
+#design-card{
+   padding-left: 50px;
 }
 
 .footer-link-item a{
@@ -112,7 +108,7 @@
 }
 
 .social-media{
-   max-width: 1000px;
+   max-width: 1200px;
    width: 100%;
 }
 
@@ -148,6 +144,14 @@
 .website-rights{
    color: #fff;
    margin-bottom: 16px;
+   text-align: right;
+}
+
+@media screen and (max-width: 1024px){
+   .footer-link-item{
+      width: 150px;
+   }
+   
 }
 
 @media screen and (max-width: 820px){
@@ -178,5 +182,8 @@
    .social-icons{
       padding-top: 10px;
       padding-bottom: 20px;
+   }
+   #design-card{
+      padding-left: 0px;
    }
 }
