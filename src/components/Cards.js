@@ -25,7 +25,7 @@ function Cards() {
 				 </ul>
 				 <ul className='cards__items'>
 				 <CardItem
-					src='images/portfolio-card.png'
+					src='images/portfolio.png'
 					text='Portfolio website, created using React, deployed with Heroku.'
 					label='Personal Website'
 					path='https://github.com/amandayu1/amanda-yu-website'
