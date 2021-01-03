@@ -12,20 +12,20 @@ function Cards() {
 			  <ul className='cards__items'>
 			  <CardItem
 					src='images/prep.png'
-					text='Website for non-profit youth organization, created as a personal project'
+					text='Website for non-profit youth organization, developed and designed entirely by myself.'
 					label='PREPosition'
 					path='https://github.com/amandayu1/PREPosition-website'
 				/>
 				<CardItem
 					src='images/waterloo.png'
-					text='Website for incoming and current UWaterloo students, created as a personal project'
+					text='Website for incoming and current UWaterloo students, gained over 1k views.'
 					label='Waterloo Basics'
 					path='http://waterloobasics.com/'
 				 />
 				 </ul>
 				 <ul className='cards__items'>
 				 <CardItem
-					src='images/portfolio.png'
+					src='images/portfolio-card.png'
 					text='Portfolio website, created using React, deployed with Heroku.'
 					label='Personal Website'
 					path='https://github.com/amandayu1/amanda-yu-website'
@@ -54,13 +54,13 @@ function Cards() {
 				 />
 				 <CardItem id="stream"
 					src='images/stream.png'
-					text='Created using Wix for a Canada wide non-profit young organization'
+					text='Created using Wix for a Canada wide non-profit young organization.'
 					label='STREAM Syndicate'
 					path='https://www.streamsyndicate-canada.com/'
 				 />
 				 <CardItem
 					src='images/coronavrus.jpg'
-					text='An educational augmented reality app to show you how long COVID-19 can live on different surfaces. Created at Citizen Hacks '
+					text='Educational augmented reality app showing how long COVID-19 can live on different surfaces. Created at Citizen Hacks.'
 					label='CoronaVRus'
 					path='https://devpost.com/software/coronavrus'
 				 />	  
