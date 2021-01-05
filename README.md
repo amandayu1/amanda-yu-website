@@ -1,6 +1,6 @@
 # Personal Porfolio Website
 
-Check it out at: https://amanda-yu-website.herokuapp.com/
+Check it out at: https://amanda-yu.herokuapp.com/
 
 Amanda Yu\
 Univeristy of Waterloo\
