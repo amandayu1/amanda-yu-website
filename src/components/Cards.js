@@ -25,23 +25,37 @@ function Cards() {
 				 </ul>
 				 <ul className='cards__items'>
 				 <CardItem
+					src='images/chat.png'
+					text='Enter this chat room created with Firebase storage and authentication.'
+					label='React Chat App'
+					path='https://github.com/amandayu1/react-chat-app'
+				 />
+				 <CardItem
 					src='images/portfolio.png'
 					text='Portfolio website, created using React, deployed with Heroku.'
 					label='Personal Website'
 					path='https://github.com/amandayu1/amanda-yu-website'
 				 />
-				 <CardItem
+			  </ul>
+			  <ul className='cards__items'>
+			  <CardItem
+					src='images/smartCart.png'
+					text='Grocery App on mobile used to scan items, created using React Native.'
+					label='SmartCart'
+					path='https://github.com/amandayu1/smart-cart/tree/master'
+				 />
+			  <CardItem
+					src='images/nyan.png'
+					text='OOP based collision, created with JavaScript.'
+					label='Avoid Nyan Cat'
+					path='https://github.com/amandayu1/avoid-collision-game'
+				 />
+			  <CardItem
 					src='images/unzucc.png'
 					text='Anti-facial detection neural network. Created at Citizen Hacks.'
 					label='Unzucc.me'
 					path='https://github.com/amandayu1/unzucc.me'
-				 />
-				 <CardItem
-					src='images/smartCart.png'
-					text='Grocery App on mobile used to scan items, created at Hack the North.'
-					label='SmartCart'
-					path='https://devpost.com/software/grocery-app-n0ps83'
-				 />
+				 />				 
 			  </ul>
 				{/*Design Category*/}
 			  <h1>Design</h1>
