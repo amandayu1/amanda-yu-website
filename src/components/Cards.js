@@ -46,7 +46,7 @@ function Cards() {
 				 />
 			  <CardItem
 					src='images/nyan.png'
-					text='OOP based collision, created with JavaScript.'
+					text='OOP based collision game, created with JavaScript.'
 					label='Avoid Nyan Cat'
 					path='https://github.com/amandayu1/avoid-collision-game'
 				 />
