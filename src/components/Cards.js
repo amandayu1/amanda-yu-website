@@ -30,13 +30,13 @@ function Cards() {
 					label='Personal Website'
 					path='https://github.com/amandayu1/amanda-yu-website'
 				 />
-			  </ul>
 			  <CardItem
 					src='images/smartCart.png'
 					text='Grocery App on mobile used to scan items, created using React Native.'
 					label='SmartCart'
 					path='https://github.com/amandayu1/smart-cart/tree/master'
 				 />
+				 </ul>
 			  <ul className='cards__items'>
 			  <CardItem
 					src='images/nyan.png'
