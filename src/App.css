@@ -12,7 +12,7 @@
 }
 
 .page-content p{
-  padding: 5% 21% 5%;
+  padding: 4% 21% 6.5%;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   color: white;
   text-align: left;
@@ -41,10 +41,11 @@
 }
 
 .about h1{
-  padding: 2%;
+  padding: 4.5%;
+  padding-bottom: 0;
   font-size: 50px;
-  background: white;
-  color: rgb(28, 27, 27);
+  background:linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  color: white;
   font-family: 'PT Sans', sans-serif;
 }
 

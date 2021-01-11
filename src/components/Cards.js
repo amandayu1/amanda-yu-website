@@ -25,14 +25,20 @@ function Cards() {
 				 </ul>
 				 <ul className='cards__items'>
 				 <CardItem
+					src='images/v2t.png'
+					text='Visually/ auditorily impaired users can chat by converting messages from text to speech and speech to text, used the Firebase database.'
+					label='Visual Speech'
+					path='https://github.com/jerryxu99/VisualSpeech'
+				 />
+				 <CardItem
 					src='images/portfolio.png'
-					text='Portfolio website, created using React, deployed with Heroku.'
+					text='My personal portfolio website, created using React, deployed with Heroku.'
 					label='Personal Website'
 					path='https://github.com/amandayu1/amanda-yu-website'
 				 />
 			  <CardItem
 					src='images/smartCart.png'
-					text='Grocery App on mobile used to scan items, created using React Native.'
+					text='A grocery app on mobile used to scan items and add it to your shopping list, created using React Native.'
 					label='SmartCart'
 					path='https://github.com/amandayu1/smart-cart/tree/master'
 				 />
