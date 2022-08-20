@@ -3,6 +3,11 @@ import { Button } from "./Button";
 import "./Footer.css";
 
 function Footer({listThing, year}){
+  const subject = "Interested in Resume"
+	const body = `Hi Amanda,
+	%0D%0A%0D%0A  I was on your personal website and I'm would love for you to send me your resume. Hope to connect!
+	%0D%0A%0D%0A  Thank you!`
+
     return(
       <footer className="footer-container">
         {/*
@@ -11,21 +16,23 @@ function Footer({listThing, year}){
             <div>
             <form>
               <input className="footer-input" type="email" name="email" placeholder="Your Email"></input>
-              <Button buttonStyle="btn--outline">Submit</Button> 
+              <Button buttonStyle="btn--outline">Submit</Button>
             </form>
           </div>
         </section>
         */}
 
         {/*footer link section*/}
+
         <div className="footer-link-wrapper">
             <div className="footer-link-item" id="about-card">
               <h2>About</h2>
                 <Link className="footer-link" activeClass="active" to="home" spy={true} smooth={true} duration={1250}>Home</Link>
                 <Link className="footer-link"activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1250}>About Me</Link>
                 <Link className="footer-link" activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={1250}>Projects</Link>
-                <a className="footer-link" href="images/Yu_Amanda.pdf" target="_blank">Resume</a>
-              </div>
+                <a className="footer-link" activeClass="active" spy={true} smooth={true} offset={-70} duration={1250}
+                  href={`mailto:amanda.yu@uwaterloo.com?subject=${subject}&body=${body}`} target="_blank" without rel="noopener noreferrer">Resume</a>
+						</div>
             <div className="footer-link-item" id="dev-card">
               <h2>Development Projects</h2>
               <a className="footer-link" target="_blank" href="https://github.com/amandayu1/PREPosition-website" rel="noreferrer">PREPosition</a>
@@ -42,7 +49,7 @@ function Footer({listThing, year}){
             </div>
           </div>
           {/*end of footer link wrapper*/}
-        
+
         {/*footer social media section*/}
         <section className="social-media">
           <div className="social-media-wrap">
@@ -72,7 +79,7 @@ function Footer({listThing, year}){
                 <i className="fab fa-linkedin"></i>
               </a>
             </div>
-            
+
             <small className="website-rights">
              Created using React © {year} <br/>
              Powered by Heroku

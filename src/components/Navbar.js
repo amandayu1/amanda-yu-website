@@ -7,9 +7,13 @@ export function Navbar({header}) {
 
 	const handleClick = () => setClick(!click);
 	const closeMobileMenu = () => setClick(false);
-	
+
+	const subject = "Interested in Resume"
+	const body = `Hi Amanda,
+	%0D%0A%0D%0A  I was on your personal website and I'm would love for you to send me your resume. Hope to connect!
+	%0D%0A%0D%0A  Thank you!`
+
 	return (
-		<>
 			<nav className="navbar">
 			{/*Remember to change css so that there's a gap at the top
 			<h1>{header}</h1>*/}
@@ -19,13 +23,12 @@ export function Navbar({header}) {
 				<div className="navbar-container">
 					{/*toggle icon*/}
 					<div className="menu-icon" onClick={handleClick}>
-					
 						<i className={click ? "fas fa-times" : "fas fa-bars"} />
 					</div>
 					{/*toggle appear/ disseaper*/}
 					<ul className={click ? "nav-menu active" : "nav-menu"} >
 						<li className="nav-item">
-							<a className="nav-links" activeClass="active" href="images/Yu_Amanda.pdf" target="_blank" without rel="noopener noreferrer">Resume</a>
+							<a className="nav-links" activeClass="active" href={`mailto:amanda.yu@uwaterloo.com?subject=${subject}&body=${body}`} target="_blank" without rel="noopener noreferrer">Resume</a>
 						</li>
 						<li className="nav-item">
 							<Link className="nav-links" onClick={closeMobileMenu} activeClass="active" to="about" spy={true} smooth={true} offset={-75} duration={1000}>About</Link>
@@ -39,7 +42,7 @@ export function Navbar({header}) {
 					</ul>
 				</div>
 			</nav>
-		</>
+
 	)
 }
 
