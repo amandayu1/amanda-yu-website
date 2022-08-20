@@ -1,14 +1,14 @@
 import React from 'react';
 import { CardItem } from './Card';
-import './Cards.css';
+import './styles/Cards.css';
 
 function Cards() {
 	return (
 		<div className='cards' id="projects">
-			<h1>Check out my projects.</h1>
+			<h1>Check out my projects</h1>
 			<div className='cards__container'>
 				<div className='cards__wrapper'>
-					<h1>Development</h1>
+					<h2>Development</h2>
 					<ul className='cards__items'>
 						<CardItem
 							src='images/splitpeas.png'
@@ -78,7 +78,7 @@ function Cards() {
 						/>
 					</ul>
 					{/*Design Category*/}
-					<h1>Design</h1>
+					<h2>Design</h2>
 					<ul className='cards__items'>
 						<CardItem
 							src='images/reach.png'

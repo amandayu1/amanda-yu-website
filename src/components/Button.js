@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll';
-import "./Button.css";
+import "./styles/Button.css";
 
 const STYLES = ["btn--primary", "btn--outline"];
 const SIZES = [ "btn--med", "btn--large"];
