@@ -9,3 +9,7 @@ Reach me at: amanda.yu@uwaterloo.ca
 
 Created with ReactJS
 Deployed using Heroku
+
+Start the project
+npm install
+npm start
