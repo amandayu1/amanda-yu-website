@@ -2,7 +2,7 @@ import React from 'react'
 import "../App.css";
 import { Button } from './Button';
 import { ButtonExt } from './ButtonExt';
-import "./Landing.css";
+import "./styles/Landing.css";
 
 
 function Landing() {

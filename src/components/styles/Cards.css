@@ -3,6 +3,13 @@
   background: #fff;
 }
 
+.cards h2{
+  font-size: 30px;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-left: 2%;
+}
+
 .cards__container {
   display: flex;
   flex-flow: column;

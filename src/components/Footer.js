@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll';
 import { Button } from "./Button";
-import "./Footer.css";
+import "./styles/Footer.css";
 
 function Footer({listThing, year}){
   const subject = "Interested in Resume"

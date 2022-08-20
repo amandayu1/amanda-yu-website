@@ -10,14 +10,11 @@ h1{
   text-align: center;
 }
 
-h2{
-  font-size: 30px;
-  align-items: center;
-  padding-left: 20px;
-  padding-bottom: 30px;
-}
-
-.experience > p{
+.experience > p {
   padding-top: 5%;
   margin-bottom: -5%;
+}
+
+.experience > a {
+  text-decoration: solid white;
 }

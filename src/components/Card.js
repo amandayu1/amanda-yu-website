@@ -2,7 +2,6 @@ import React from 'react';
 
 export function CardItem(props) {
    return (
-     <>
        <li className='cards__item'>
        <a target="_blank" href={props.path} rel="noreferrer" className="cards__item__link">
            <figure className='cards__item__pic-wrap' data-category={props.label}>
@@ -17,9 +16,8 @@ export function CardItem(props) {
            </div>
        </a>
        </li>
-     </>
    );
  }
 
- 
+
  export default CardItem;

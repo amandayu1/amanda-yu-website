@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./Navbar.css";
+import "./styles/Navbar.css";
 import { Link } from 'react-scroll';
 
 export function Navbar({header}) {
