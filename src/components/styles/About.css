@@ -16,6 +16,12 @@
     line-height: 32px;
   }
 
+.experience-socials > div{
+
+ justify-content: center;
+
+}
+
   .experience{
     padding: 5% 17%;
     text-align: left;

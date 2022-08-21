@@ -16,6 +16,7 @@ export default function Experience() {
         started a worked on computer vision problems at Waterloo Aerial Robotics
         Team. If you'd like to see my resume, please&nbsp;
         <a
+          id = "experience"
           href={`mailto:amanda.yu@uwaterloo.com?subject=${subject}&body=${body}`}
           target="_blank"
         >
