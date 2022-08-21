@@ -4,7 +4,6 @@ import { Button } from './Button';
 import { ButtonExt } from './ButtonExt';
 import "./styles/Landing.css";
 
-
 function Landing() {
     const subject = "Interested in Resume"
 	const body = `Hi Amanda,
@@ -13,7 +12,7 @@ function Landing() {
 
     return (
         <div className="landing-container">
-            <img id="background" src="images/landing-img.jpg" alt="Page Banner, welcome to the page."></img>
+            <img id="background" src="images/landing-img.jpg" alt="Page cover photo, welcome to my portfolio."></img>
             <h1>Amanda Yu</h1>
             <p>Welcome to my website.</p>
 

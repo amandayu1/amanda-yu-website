@@ -1,13 +1,12 @@
 import React from "react"
 import "./styles/About.css";
-import profile from './profile.png';
 
 export function About() {
     return (
         <div className="about" id="about">
         <h1>About Me</h1>
 
-      {/*footer social media section*/}
+      {/*social media section*/}
       <section className="experience-socials">
           <div className="social-media-wrap">
             <div className="social-icons">
@@ -47,8 +46,8 @@ export function About() {
         <p >
           <img
             id="profile"
-            src={profile}
-            alt="Amanda in a suit, background is Toronto buildings skyline"
+            src="images/pfp.png"
+            alt="Amanda in a black turtle neck, background is in The Highline in New York City."
           />
           Hi, I'm Amanda Yu, a Systems Design Engineering student at the
           University of Waterloo. I'm a tech enthusiast, product manager,
