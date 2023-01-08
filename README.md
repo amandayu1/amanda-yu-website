@@ -8,7 +8,7 @@ Systems Design Engineering, 2025\
 Reach me at: amanda.yu@uwaterloo.ca
 
 Created with ReactJS
-Deployed using Heroku
+Deployed using Vercel
 
 
 # Getting Started with Create React App
