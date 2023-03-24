@@ -50,9 +50,9 @@ export function About() {
             alt="Amanda in a black turtle neck, background is in The Highline in New York City."
           />
           Hi, I'm Amanda Yu, a Systems Design Engineering student at the
-          University of Waterloo. I'm a tech enthusiast, product manager,
-          software developer, and designer. I am currently seeking a co-op for
-          the Winter 2023 term.
+          University of Waterloo. I'm a Machine Learning Engineer, Product Manager, and Full Stack 
+          Software Developer. I am currently seeking a co-op for
+          the Fall 2023 term.
           <br /> <br />
           I'm always on the lookout for opportunities to grow my problem
           solving, technical, and leadership skills. If you'd like to talk about
