@@ -52,7 +52,7 @@ function Cards() {
 						/>
 						<CardItem
 							src='images/portfolio.png'
-							text='My personal portfolio website, created using React, deployed with Heroku.'
+							text='My personal portfolio website, created using React, deployed with Vercel.'
 							label='Personal Website'
 							path='https://github.com/amandayu1/amanda-yu-website'
 						/>
