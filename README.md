@@ -1,6 +1,6 @@
 # Personal Porfolio Website
 
-Check it out at: https://amanda-yu-website.vercel.app/
+Check it out at: https://amandayu.tech/
 
 Amanda Yu\
 Univeristy of Waterloo\
