@@ -51,8 +51,7 @@ export function About() {
           />
           Hi, I'm Amanda Yu, a Systems Design Engineering student at the
           University of Waterloo. I'm a Machine Learning Engineer, Product Manager, and Full Stack 
-          Software Developer. I am currently seeking a co-op for
-          the Fall 2023 term.
+          Software Developer. I am graduating in April 2025 and I am currently seeking a new graduate role. I've worked at companies such as Amazon, Shopify, 1Password, RBC, Kinaxis, and Yeaer Zero Studios.
           <br /> <br />
           I'm always on the lookout for opportunities to grow my problem
           solving, technical, and leadership skills. If you'd like to talk about
